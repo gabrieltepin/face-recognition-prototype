@@ -1,0 +1,4 @@
+- List all libs required for installing and execute the code
+- Reference the github container this project was based on
+- Improve label text image to allow other images in assets folder other than .jpg format
+- Illustrate with a gif to demonstrate the project running
