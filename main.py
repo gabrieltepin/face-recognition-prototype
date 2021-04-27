@@ -7,14 +7,14 @@ import os
 video_capture = cv2.VideoCapture(0)
 
 # List all availables pictures for recognition matching
-print(os.listdir("./assets"))
-pictures_list = os.listdir("./assets")
+print(os.listdir("./authorized"))
+pictures_list = os.listdir("./authorized")
 
 # Load images and learn how to recognize it and the person associated name
 known_face_encodings = []
 known_face_names = []
 for image_label in pictures_list:
-    image_path = "./assets/" + image_label
+    image_path = "./authorized/" + image_label
     image = face_recognition.load_image_file(image_path) 
     known_face_encodings.append(face_recognition.face_encodings(image)[0])
     known_face_names.append(image_label[:-4])
