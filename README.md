@@ -16,4 +16,4 @@ After installing the required libs, execute the following command to run the cod
     python3 main.py
 ```
 
-The webcam should initiate and the program should start processing the frames searching for matches with faces pictures included in _assets_ folder
+The webcam should initiate and the program should start processing the frames searching for matches with faces pictures included in _authorized_ folder
