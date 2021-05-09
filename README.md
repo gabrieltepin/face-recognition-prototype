@@ -1,7 +1,7 @@
 # Face recognition prototype
 
-This is a demo of running face recognition on live video from the computer webcam for prototyping school project and as a prototype it
-contains basic performance tweaks to improve processing run a lot faster:
+This is a demo of running face recognition on live video from the computer webcam for prototyping school project but it
+contains basic performance tweaks to improve processing:
 1. Process each video frame at 1/4 resolution (though still display it at full resolution)
 2. Only detect faces in every other frame of video.
 
